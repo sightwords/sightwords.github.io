@@ -7,9 +7,9 @@ class Home extends React.Component {
         return (
             <div>
                 <section className="page-header">
-                    <h1 className="project-name">Kids Math</h1>
+                    <h1 className="project-name">Sight Words</h1>
 
-                    <h2 className="project-tagline">Kids math exercies.</h2>
+                    <h2 className="project-tagline">Sight words.</h2>
                     <Link className="btn" to="/flashcards">Flashcards</Link>
                 </section>
                 <section className="main-content">
