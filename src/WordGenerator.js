@@ -262,6 +262,106 @@ export default class WordGenerator {
             chinese: {
                 word: '我不理解'
             }
+        }, {
+            spanish: {
+                word: 'Uno'
+            },
+            english: {
+                word: 'One'
+            },
+            chinese: {
+                word: '一'
+            }
+        }, {
+            spanish: {
+                word: 'Dos'
+            },
+            english: {
+                word: 'Two'
+            },
+            chinese: {
+                word: '二'
+            }
+        }, {
+            spanish: {
+                word: 'Tres'
+            },
+            english: {
+                word: 'Three'
+            },
+            chinese: {
+                word: '三'
+            }
+        }, {
+            spanish: {
+                word: 'Cuatro'
+            },
+            english: {
+                word: 'Four'
+            },
+            chinese: {
+                word: '四'
+            }
+        }, {
+            spanish: {
+                word: 'Cinco'
+            },
+            english: {
+                word: 'Five'
+            },
+            chinese: {
+                word: '五'
+            }
+        }, {
+            spanish: {
+                word: 'Seis'
+            },
+            english: {
+                word: 'Six'
+            },
+            chinese: {
+                word: '六'
+            }
+        }, {
+            spanish: {
+                word: 'Siete'
+            },
+            english: {
+                word: 'Seven'
+            },
+            chinese: {
+                word: '七'
+            }
+        }, {
+            spanish: {
+                word: 'Ocho'
+            },
+            english: {
+                word: 'Eight'
+            },
+            chinese: {
+                word: '八'
+            }
+        }, {
+            spanish: {
+                word: 'Nueve'
+            },
+            english: {
+                word: 'Nine'
+            },
+            chinese: {
+                word: '九'
+            }
+        }, {
+            spanish: {
+                word: 'Diez'
+            },
+            english: {
+                word: 'Ten'
+            },
+            chinese: {
+                word: '十'
+            }
         }];
 
         return words;
