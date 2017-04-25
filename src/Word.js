@@ -5,29 +5,35 @@ import AvVolumeUp from 'material-ui/svg-icons/av/volume-up.js';
 
 
 export default class Word extends React.Component {
-    //constructor() {
-    //    super();
-    //}
+    constructor() {
+        super();
+
+        this.voice = null;
+    }
 
     speak() {
         console.log(`speak ${this.props.spanish.word}`);
         if ('speechSynthesis' in window) {
-            let voices = speechSynthesis.getVoices();
-            let esMX;
-            for (var i in voices) {
-                if (voices[i].lang === 'es-MX') {
-                    esMX = voices[i];
-                    break;
+
+            if (!this.voice) {
+                let voices = speechSynthesis.getVoices();
+                console.log('voices length: ' + voices.length);
+
+                for (var i in voices) {
+                    if (voices[i].lang === 'es-MX') {
+                        this.voice = voices[i];
+                        break;
+                    }
                 }
             }
-            if (esMX === undefined) {
-                console.log('voices length: ' + voices.length);
+
+            if (this.voice === undefined) {
                 console.log('TTS is not support for es-MX');
                 return;
             }
 
             var msg = new SpeechSynthesisUtterance();
-            msg.voice = esMX;
+            msg.voice = this.voice;
             msg.rate = 1;   // TODO: allow user change it
             msg.pitch = 1;  // TODO: allow user change it
             msg.text = this.props.spanish.word;
