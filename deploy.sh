@@ -1,13 +1,21 @@
 #!/bin/sh
 
 REV=$(git rev-parse --short HEAD)
-DEPLOY_REPO=kidsmath.github.io
+DEPLOY_REPO=.deploy
+
+if [ ! -d $DEPLOY_REPO ]; then
+  git clone git@github.com:sightwords/sightwords.github.io.git $DEPLOY_REPO
+fi
 
 rm -fr build
 yarn run build
 
 # override target
-rm -fr $DEPLOY_REPO/*
-cp -r build/* $DEPLOY_REPO/
-(cd $DEPLOY_REPO; git add .; git commit -m "Deploy $REV"; git push);
+cd $DEPLOY_REPO
+git checkout master
+rm -fr *
+cp -r ../build/* .
+git add .
+git commit -m "Deploy $REV of dev"
+git push origin master
 
