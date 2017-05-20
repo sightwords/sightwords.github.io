@@ -263,6 +263,249 @@ export default class WordGenerator {
                 word: '我不理解'
             }
         }, {
+            tags: ['powerful phrase', 'essential'],
+            spanish: {
+                word: 'Por favor repita'
+            },
+            english: {
+                word: 'Please repeat'
+            },
+            chinese: {
+                word: '请重复一遍'
+            }
+        }, {
+            tags: ['powerful phrase', 'essential'],
+            spanish: {
+                word: '¿Podría ayudarme?'
+            },
+            english: {
+                word: 'Can you help me?'
+            },
+            chinese: {
+                word: '你能帮我吗？'
+            }
+        }, {
+            tags: ['powerful phrase', 'essential'],
+            spanish: {
+                word: '¿Podría ayudarnos?'
+            },
+            english: {
+                word: 'Can you help us?'
+            },
+            chinese: {
+                word: '你能帮我们吗？'
+            }
+        }, {
+            tags: ['powerful phrase', 'essential'],
+            spanish: {
+                word: '¿Podría ayudarnos?'
+            },
+            english: {
+                word: 'Can you help us?'
+            },
+            chinese: {
+                word: '你能帮我们吗？'
+            }
+        }, {
+            tags: ['essential'],
+            spanish: {
+                word: '¿Qué?'
+            },
+            english: {
+                word: 'What?'
+            },
+            chinese: {
+                word: '什么？'
+            }
+        }, {
+            tags: ['essential'],
+            spanish: {
+                word: '¿Quién?'
+            },
+            english: {
+                word: 'Who?'
+            },
+            chinese: {
+                word: '谁？'
+            }
+        }, {
+            tags: ['essential'],
+            spanish: {
+                word: '¿Cuándo?'
+            },
+            english: {
+                word: 'When?'
+            },
+            chinese: {
+                word: '什么时候？'
+            }
+        }, {
+            tags: ['essential'],
+            spanish: {
+                word: '¿Por que?'
+            },
+            english: {
+                word: 'Why?'
+            },
+            chinese: {
+                word: '为什么？'
+            }
+        }, {
+            tags: ['essential'],
+            spanish: {
+                word: 'Ahora'
+            },
+            english: {
+                word: 'Now'
+            },
+            chinese: {
+                word: '现在'
+            }
+        }, {
+            tags: ['essential'],
+            spanish: {
+                word: 'Luego'
+            },
+            english: {
+                word: 'Later'
+            },
+            chinese: {
+                word: '过一会儿'
+            }
+        }, {
+            tags: ['essential'],
+            spanish: {
+                word: 'Hoy'
+            },
+            english: {
+                word: 'Today'
+            },
+            chinese: {
+                word: '今天'
+            }
+        }, {
+            tags: ['essential'],
+            spanish: {
+                word: 'Mañana'
+            },
+            english: {
+                word: 'Tomorrow'
+            },
+            chinese: {
+                word: '明天'
+            }
+        }, {
+            tags: ['essential'],
+            spanish: {
+                word: 'Desayuno'
+            },
+            english: {
+                word: 'Breakfast'
+            },
+            chinese: {
+                word: '早餐'
+            }
+        }, {
+            tags: ['essential'],
+            spanish: {
+                word: 'Almuerzo'
+            },
+            english: {
+                word: 'Lunch'
+            },
+            chinese: {
+                word: '午餐'
+            }
+        }, {
+            tags: ['essential'],
+            spanish: {
+                word: 'Cena'
+            },
+            english: {
+                word: 'Dinner'
+            },
+            chinese: {
+                word: '晚餐'
+            }
+        }, {
+            tags: ['powerful phrase', 'essential'],
+            spanish: {
+                word: '¿Qué hora es?'
+            },
+            english: {
+                word: 'What time is it?'
+            },
+            chinese: {
+                word: '现在是什么时间？'
+            }
+        }, {
+            tags: ['powerful phrase', 'essential'],
+            spanish: {
+                word: 'Estoy perdido'
+            },
+            english: {
+                word: 'I am lost'
+            },
+            chinese: {
+                word: '我迷路了'
+            }
+        }, {
+            tags: ['powerful phrase', 'essential'],
+            spanish: {
+                word: 'Estamos perdidos'
+            },
+            english: {
+                word: 'We are lost'
+            },
+            chinese: {
+                word: '我们迷路了'
+            }
+        }, {
+            tags: ['essential'],
+            spanish: {
+                word: 'Cuidado'
+            },
+            english: {
+                word: 'Watch out!'
+            },
+            chinese: {
+                word: '小心'
+            }
+        }, {
+            tags: ['essential'],
+            spanish: {
+                word: 'Detente!'
+            },
+            english: {
+                word: 'Stop!'
+            },
+            chinese: {
+                word: '停下'
+            }
+        }, {
+            tags: ['essential'],
+            spanish: {
+                word: 'Sigue'
+            },
+            english: {
+                word: 'Go'
+            },
+            chinese: {
+                word: '走'
+            }
+        }, {
+            tags: ['essential'],
+            spanish: {
+                word: '¿Ascensor?'
+            },
+            english: {
+                word: 'Elevator?'
+            },
+            chinese: {
+                word: '电梯？'
+            }
+        }, {
+            tags: ['essential', 'numbers'],
             spanish: {
                 word: 'Uno'
             },
@@ -273,6 +516,7 @@ export default class WordGenerator {
                 word: '一'
             }
         }, {
+            tags: ['essential', 'numbers'],
             spanish: {
                 word: 'Dos'
             },
@@ -283,6 +527,7 @@ export default class WordGenerator {
                 word: '二'
             }
         }, {
+            tags: ['essential', 'numbers'],
             spanish: {
                 word: 'Tres'
             },
@@ -293,6 +538,7 @@ export default class WordGenerator {
                 word: '三'
             }
         }, {
+            tags: ['essential', 'numbers'],
             spanish: {
                 word: 'Cuatro'
             },
@@ -303,6 +549,7 @@ export default class WordGenerator {
                 word: '四'
             }
         }, {
+            tags: ['essential', 'numbers'],
             spanish: {
                 word: 'Cinco'
             },
@@ -313,6 +560,7 @@ export default class WordGenerator {
                 word: '五'
             }
         }, {
+            tags: ['essential', 'numbers'],
             spanish: {
                 word: 'Seis'
             },
@@ -323,6 +571,7 @@ export default class WordGenerator {
                 word: '六'
             }
         }, {
+            tags: ['essential', 'numbers'],
             spanish: {
                 word: 'Siete'
             },
@@ -333,6 +582,7 @@ export default class WordGenerator {
                 word: '七'
             }
         }, {
+            tags: ['essential', 'numbers'],
             spanish: {
                 word: 'Ocho'
             },
@@ -343,6 +593,7 @@ export default class WordGenerator {
                 word: '八'
             }
         }, {
+            tags: ['essential', 'numbers'],
             spanish: {
                 word: 'Nueve'
             },
@@ -353,6 +604,7 @@ export default class WordGenerator {
                 word: '九'
             }
         }, {
+            tags: ['essential', 'numbers'],
             spanish: {
                 word: 'Diez'
             },
