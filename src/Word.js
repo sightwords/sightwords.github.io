@@ -1,8 +1,19 @@
 import React from 'react';
 import {Card, CardTitle, CardText, CardActions} from 'material-ui/Card';
+import Chip from 'material-ui/Chip';
 import IconButton from 'material-ui/IconButton';
 import AvVolumeUp from 'material-ui/svg-icons/av/volume-up.js';
 
+const styles = {
+  chip: {
+    'margin-right': '8px',
+  },
+  wrapper: {
+    display: 'flex',
+    flexWrap: 'wrap',
+    'align-items': 'center'     // vertical center align
+  },
+};
 
 export default class Word extends React.Component {
     constructor() {
@@ -50,9 +61,11 @@ export default class Word extends React.Component {
     render() {
         return (
             <Card>
-                <CardTitle title={this.props.spanish.word} subtitle={`${this.props.english.word} ${this.props.chinese.word}`}/>
+                <CardTitle title={this.props.spanish.word} subtitle=""/>
                 <CardText>
-                    {this.props.spanish.example}
+                    <p>{this.props.spanish.example}</p>
+                    <p style={styles.wrapper}><Chip style={styles.chip}>EN</Chip> <span>{this.props.english.word}</span></p>
+                    <p style={styles.wrapper}><Chip style={styles.chip}>CN</Chip> <span>{this.props.chinese.word}</span></p>
                 </CardText>
                 <CardActions>
                     <IconButton tooltip="Speak to me" onClick={this.speak.bind(this)}>
