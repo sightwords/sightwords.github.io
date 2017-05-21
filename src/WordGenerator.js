@@ -614,6 +614,138 @@ export default class WordGenerator {
             chinese: {
                 word: '十'
             }
+        }, {
+            tags: ['essential', 'numbers'],
+            spanish: {
+                word: 'Once'
+            },
+            english: {
+                word: 'Eleven'
+            },
+            chinese: {
+                word: '十一'
+            }
+        }, {
+            tags: ['essential', 'numbers'],
+            spanish: {
+                word: 'Doce'
+            },
+            english: {
+                word: 'Twelve'
+            },
+            chinese: {
+                word: '十二'
+            }
+        }, {
+            tags: ['essential', 'numbers'],
+            spanish: {
+                word: 'Trece'
+            },
+            english: {
+                word: 'Thirteen'
+            },
+            chinese: {
+                word: '十三'
+            }
+        }, {
+            tags: ['essential', 'numbers'],
+            spanish: {
+                word: 'Catorce'
+            },
+            english: {
+                word: 'Fourteen'
+            },
+            chinese: {
+                word: '十四'
+            }
+        }, {
+            tags: ['essential', 'numbers'],
+            spanish: {
+                word: 'Quince'
+            },
+            english: {
+                word: 'Fifteen'
+            },
+            chinese: {
+                word: '十五'
+            }
+        }, {
+            tags: ['essential', 'numbers'],
+            spanish: {
+                word: 'Dieciséis'
+            },
+            english: {
+                word: 'Sixteen'
+            },
+            chinese: {
+                word: '十六'
+            }
+        }, {
+            tags: ['essential', 'numbers'],
+            spanish: {
+                word: 'Diecisiete'
+            },
+            english: {
+                word: 'Seventeen'
+            },
+            chinese: {
+                word: '十七'
+            }
+        }, {
+            tags: ['essential', 'numbers'],
+            spanish: {
+                word: 'Dieciocho'
+            },
+            english: {
+                word: 'Eighteen'
+            },
+            chinese: {
+                word: '十八'
+            }
+        }, {
+            tags: ['essential', 'numbers'],
+            spanish: {
+                word: 'Diecinueve'
+            },
+            english: {
+                word: 'Nineteen'
+            },
+            chinese: {
+                word: '十九'
+            }
+        }, {
+            tags: ['essential', 'numbers'],
+            spanish: {
+                word: 'Veinte'
+            },
+            english: {
+                word: 'Twenty'
+            },
+            chinese: {
+                word: '二十'
+            }
+        }, {
+            tags: ['essential', 'numbers'],
+            spanish: {
+                word: 'Veintiuno'
+            },
+            english: {
+                word: 'Twenty-one'
+            },
+            chinese: {
+                word: '二十一'
+            }
+        }, {
+            tags: ['essential', 'numbers'],
+            spanish: {
+                word: 'Veintidos'
+            },
+            english: {
+                word: 'Twenty-two'
+            },
+            chinese: {
+                word: '二十二'
+            }
         }];
 
         return words;
